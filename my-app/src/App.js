@@ -9,7 +9,17 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Code is opensourced and written by Ellie Kubo</footer>
+        <footer>
+          Code is{" "}
+          <a
+            href="https://github.com/Ellie575/react-dictionary-app-reimagined"
+            target="_blank"
+            rel="noreferrer"
+          >
+            opensourced
+          </a>{" "}
+          and written by Ellie Kubo
+        </footer>
       </div>
     </div>
   );
